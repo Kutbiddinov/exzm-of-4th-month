@@ -1,0 +1,53 @@
+.item {
+    width: 100%;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 32px;
+    border-bottom: 1px solid;
+
+}
+
+.name {
+    width: 295px;
+}
+
+.id {
+    width: 176px;
+}
+
+.date {
+    width: 190px;
+}
+
+.parentName {
+    width: 187px;
+}
+
+.city {
+    width: 145px;
+}
+
+.numlink {
+    width: 183px;
+}
+
+.checkbox {
+    width: 54px;
+}
+
+.a {
+    display: none;
+}
+
+.b {
+    display: contents;
+}
+
+#list {
+    height: 663px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+/* .img .checkbox{} */

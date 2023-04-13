@@ -1,0 +1,156 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+input,
+button,
+select,
+option {
+  list-style: none;
+  text-decoration: none;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  max-width: 1920px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.nav {
+  width: 345px;
+  padding: 53px 0px 174px 46px;
+  background: #4D44B5;
+}
+.nav__logo {
+  width: 230px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__1 {
+  font-family: sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+  font-style: normal;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+.nav__list {
+  padding-left: 20px;
+  margin: 64px 0px 106px 0px;
+}
+.nav__item {
+  padding-left: 29px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 278px;
+  height: 64px;
+  border-radius: 40px 0px 0px 40px;
+}
+.nav__icon {
+  margin-right: 30px;
+  width: 30px;
+  height: 40px;
+}
+.nav__heading {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.nav__p {
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  color: #FFFFFF;
+  margin-bottom: 23px;
+}
+.nav__p1 {
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  color: #FFFFFF;
+  margin-bottom: 23px;
+}
+
+.section {
+  padding: 63px 50px 43px 50px;
+  width: 1575px;
+}
+.section__up {
+  display: flex;
+  justify-content: space-between;
+}
+.section__h1 {
+  margin-top: 10px;
+  color: #303972;
+  font-family: sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+.section__input {
+  width: 360px;
+  height: 60px;
+  padding: 0px 0px 0px 45px;
+  background: #FFFFFF;
+  border-radius: 40px;
+  border: 1px solid #ddd;
+  margin-top: 60px;
+}
+.section__list {
+  margin-top: 40px;
+  height: 663px;
+  margin-bottom: 40px;
+}
+.section__checkbox {
+  width: 54px;
+}
+.section__item {
+  display: flex;
+  align-items: center;
+  height: 81px;
+  padding: 0px 0px 0px 32px;
+  border-bottom: 1px solid;
+}
+.section__name {
+  width: 295px;
+}
+.section__id {
+  width: 176px;
+}
+.section__date {
+  width: 190px;
+}
+.section__parentName {
+  width: 187px;
+}
+.section__city {
+  width: 145px;
+}
+.section__contact {
+  width: 183px;
+}
+.section__grade {
+  width: 133px;
+}
+
+/*# sourceMappingURL=main.css.map */
