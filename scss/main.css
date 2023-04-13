@@ -94,30 +94,6 @@ body {
   padding: 63px 50px 43px 50px;
   width: 1558px;
 }
-.section__btn {
-  padding: 13px 30px;
-  width: 111px;
-  height: 40px;
-  border-radius: 20px;
-  color: #4D44B5;
-  border: 1px solid #4D44B5;
-}
-.section__btn:hover {
-  background: #4D44B5;
-  color: white;
-}
-.section__btn1 {
-  padding: 13px 30px;
-  width: 111px;
-  height: 40px;
-  border-radius: 20px;
-  color: #4D44B5;
-  border: 1px solid #4D44B5;
-}
-.section__btn1:hover {
-  background: #4D44B5;
-  color: white;
-}
 .section__up {
   display: flex;
   justify-content: space-between;
@@ -175,6 +151,4 @@ body {
 }
 .section__grade {
   width: 133px;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
